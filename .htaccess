@@ -1,0 +1,4 @@
+Options -Indexes
+<FilesMatch "^(config\.php|schema\.sql|README\.md|SQL Qeries\.txt)$">
+  Require all denied
+</FilesMatch>
